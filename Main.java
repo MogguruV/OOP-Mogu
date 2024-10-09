@@ -13,6 +13,17 @@ public class Main {
        //player.GetInfoPlayer();
        player.moveRight();
        player.moveLeft();
+       player.moveUp();
+       player.moveDown();
+       player.getDamage();
+       player.getPower();
+       player.attack();
+       player.dash();
+       player.isDead();
+       player.isRespawn();
+       player.firstSkill();
+       player.secondSkill();
+       player.ultimateSkill();
     }
     
 }
