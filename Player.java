@@ -45,24 +45,54 @@ public class Player {
         System.out.println("Player mendapatkan penambahan attack sebanyak : 5");
         System.out.println("Total attack player : " + attack);
     }
-    public void dash(){
-        
+    public void dash(int speed){
+        this.speed = speed;
+        System.out.println("Player melakukan dash");
+        System.out.println("Speed player menjadi : "+ this.speed);
     }
     public void isDead(){
-
+        health = 0;
+        System.out.println("Player mati");
+        System.out.println("Health player : " + health);
     }
     public void isRespawn(){
-
+        health = 100;
+        System.out.println("Player hidup kembali");
+        System.out.println("Health player : " + health);
     }
 
-    public void firstSkill(){
-
+    public void firstSkill(boolean useSkill){
+        if (useSkill == true) {
+            if (firstSkill == true){
+                attack = 4;
+                System.out.println("Player menggunakan skill pertama dengan attack = " + attack);
+            }
+        }
+        else {
+            System.out.println("Skill satu masih Cooldown");
+        }
     }
-    public void secondSkill(){
-
+    public void secondSkill(boolean useSkill){
+        if (useSkill == true) {
+            if (secondSkill == true){
+                attack = 7;
+                System.out.println("Player menggunakan skill kedua dengan attack = " + attack);
+            }
+        }
+        else {
+            System.out.println("Skill kedua masih Cooldown");
+        }
     }
-    public void ultimateSkill(){
-
+    public void ultimateSkill(boolean useSkill){
+        if (useSkill == true) {
+            if (ultimateSkill == true){
+                attack = 10;
+                System.out.println("Player menggunakan Ultimate Skill dengan attack = " + attack);
+            }
+        }
+        else {
+            System.out.println("Ultimate Skill masih Cooldown");
+        }
     }
 
 }

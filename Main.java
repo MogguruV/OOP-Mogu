@@ -15,15 +15,15 @@ public class Main {
        //player.moveLeft();
        //player.moveUp();
        //player.moveDown();
-       player.getDamage(2, 1);
-       player.getPower();
+       //player.getDamage(2, 1);
+       //player.getPower();
        //player.attack();
-       player.dash();
-       player.isDead();
-       player.isRespawn();
-       player.firstSkill();
-       player.secondSkill();
-       player.ultimateSkill();
+       //player.dash(5);
+       //player.isDead();
+       //player.isRespawn();
+       player.firstSkill(true);
+       player.secondSkill(true);
+       player.ultimateSkill(true);
     }
     
 }
