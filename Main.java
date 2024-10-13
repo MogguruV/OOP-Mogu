@@ -11,13 +11,13 @@ public class Main {
 
        Player player = new Player();
        //player.GetInfoPlayer();
-       player.moveRight();
-       player.moveLeft();
-       player.moveUp();
-       player.moveDown();
-       player.getDamage();
+       //player.moveRight();
+       //player.moveLeft();
+       //player.moveUp();
+       //player.moveDown();
+       player.getDamage(2, 1);
        player.getPower();
-       player.attack();
+       //player.attack();
        player.dash();
        player.isDead();
        player.isRespawn();

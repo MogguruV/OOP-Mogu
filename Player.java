@@ -33,15 +33,20 @@ public class Player {
         System.out.println("Player mengeluarkan damage : " + attack + " Damage");
         return attack;
     }
-    public void getDamage(){
-        
-
+    public void getDamage(int health, int defense){
+        this.health = this.health - health;
+        this.defense = this.defense - defense;
+        System.out.println("Player terkena damage : -" + health + " damage & -" + defense + " defense");
+        System.out.println("Health player tersisa " + this.health);
+        System.out.println("Defense player tersisa " + this.defense);
     }
     public void getPower(){
-
+        attack = attack + 5;
+        System.out.println("Player mendapatkan penambahan attack sebanyak : 5");
+        System.out.println("Total attack player : " + attack);
     }
     public void dash(){
-
+        
     }
     public void isDead(){
 
@@ -57,7 +62,7 @@ public class Player {
 
     }
     public void ultimateSkill(){
-        
+
     }
 
 }
