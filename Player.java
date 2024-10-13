@@ -34,6 +34,7 @@ public class Player {
         return attack;
     }
     public void getDamage(){
+        
 
     }
     public void getPower(){
@@ -56,7 +57,7 @@ public class Player {
 
     }
     public void ultimateSkill(){
-
+        
     }
 
 }
