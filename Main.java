@@ -21,9 +21,9 @@ public class Main {
        //player.dash(5);
        //player.isDead();
        //player.isRespawn();
-       player.firstSkill(true);
-       player.secondSkill(true);
-       player.ultimateSkill(true);
+       //player.firstSkill(true);
+       //player.secondSkill(true);
+       //player.ultimateSkill(true);
     }
     
 }
