@@ -9,21 +9,21 @@ public class Main {
        // provider.kurangiKuota(5);
        // provider.perpanjangMasaBerlakuPulsa();
 
-       Player player = new Player();
-       player.GetInfoPlayer();
-       player.moveRight();
-       player.moveLeft();
-       player.moveUp();
-       player.moveDown();
-       player.getDamage(2, 1);
-       player.getPower();
-       player.attack();
-       player.dash(5);
-       player.isDead();
-       player.isRespawn();
-       player.firstSkill(true);
-       player.secondSkill(true);
-       player.ultimateSkill(true);
+      //  Player player = new Player();
+      //  player.GetInfoPlayer();
+      //  player.moveRight();
+      //  player.moveLeft();
+      //  player.moveUp();
+      //  player.moveDown();
+      //  player.getDamage(2, 1);
+      //  player.getPower();
+      //  player.attack();
+      //  player.dash(5);
+      //  player.isDead();
+      //  player.isRespawn();
+      //  player.firstSkill(true);
+      //  player.secondSkill(true);
+      //  player.ultimateSkill(true);
 
       // Person person = new Person();
       // person.setName("Mogu");
@@ -38,6 +38,19 @@ public class Main {
       // LocalStorage localStorage = new LocalStorage();
       // localStorage.setItem("abcd1234", "MogguruV");
       // localStorage.getItem("abcd1234");
-    }
-    
+
+      // HatsuneMiku miku = new HatsuneMiku();
+      // miku.GetInfoMiku();
+      // miku.PacarMiku("Mogu");
+
+      // MobilMogu mobil = new MobilMogu();
+      // mobil.SetMerek("Tesla");
+      // mobil.SetWarna();
+
+      // MotorMogu motor = new MotorMogu();
+      // motor.AsuMerek("CBR");
+      // motor.AsuWarna("Hitam");
+      // motor.AsuHarga();
+
+     }
 }

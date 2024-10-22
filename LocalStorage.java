@@ -1,6 +1,6 @@
 public class LocalStorage {
-    String key;
-    String value;
+    private String key;
+    private String value;
 
     public void setItem(String key, String value){
         this.key = key;
