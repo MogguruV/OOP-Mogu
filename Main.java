@@ -38,5 +38,13 @@ public class Main {
       // LocalStorage localStorage = new LocalStorage();
       // localStorage.setItem("abcd1234", "MogguruV");
       // localStorage.getItem("abcd1234");
+
+     //QUIZZ
+
+     Quis cookies = new Quis();
+     cookies.setItems(1111, "Hatsune Miku", 10); //hari expired dalam hari
+     cookies.getItems(1111);
+     cookies.remove(1111);
+     cookies.expired(7); //batas waktu expired dalam hari
      }
 }
