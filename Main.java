@@ -38,10 +38,8 @@ public class Main {
       // LocalStorage localStorage = new LocalStorage();
       // localStorage.setItem("abcd1234", "MogguruV");
       // localStorage.getItem("abcd1234");
-
-
-     BelajarEncap luas = new BelajarEncap();
-     
-     luas.luasLingkaran(3.14f, 2);
+     Para mogu = new Para();
+     mogu.perkenalan("joyi", 1000, "game"); 
+     mogu.namaku();
      }
 }
