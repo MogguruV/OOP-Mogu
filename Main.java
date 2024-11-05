@@ -55,6 +55,9 @@ public class Main {
      elektronik.getInfo();
      elektronik.getInfoWarranty();
 
+     Para mogu = new Para();
+     mogu.perkenalan("joyi", 1000, "game"); 
+     mogu.namaku();
      }
      
 }
