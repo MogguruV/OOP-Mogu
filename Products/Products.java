@@ -14,7 +14,4 @@ public class Products {
     public void getInfo(){
         System.out.println("Product ini " + name + ", " + description + ", dibandrol dengan harga " + price +"RP");
     }
-
 }
-
-
