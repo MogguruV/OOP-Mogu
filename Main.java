@@ -1,3 +1,6 @@
+import Products.Electronics;
+import Products.Products;
+
 public class Main {
      public static void main(String[] args) {
       // ProviderTelecom provider = new ProviderTelecom();
@@ -41,10 +44,17 @@ public class Main {
 
      //QUIZZ
 
-     Quis cookies = new Quis();
+     // Quis cookies = new Quis();
      // cookies.setItems(1111, "Hatsune Miku", 10); //hari expired dalam hari
      // cookies.getItems(1111);
-     cookies.remove(0);
+     // cookies.remove(0);
      // cookies.expired(7); //batas waktu expired dalam hari
+     
+
+     Electronics elektronik = new Electronics("MoguMogu", "Adalah laptop tercanggih yang sudah support MAI (Miku AI)", 159000000, 3);
+     elektronik.getInfo();
+     elektronik.getInfoWarranty();
+
      }
+     
 }
