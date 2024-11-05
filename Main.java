@@ -38,8 +38,7 @@ public class Main {
       // LocalStorage localStorage = new LocalStorage();
       // localStorage.setItem("abcd1234", "MogguruV");
       // localStorage.getItem("abcd1234");
-     Para mogu = new Para();
-     mogu.perkenalan("joyi", 1000, "game"); 
-     mogu.namaku();
+     
+     
      }
 }
