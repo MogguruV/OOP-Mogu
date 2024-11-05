@@ -1,3 +1,6 @@
+import Products.Electronics;
+import Products.Products;
+
 public class Main {
      public static void main(String[] args) {
       // ProviderTelecom provider = new ProviderTelecom();
@@ -38,7 +41,8 @@ public class Main {
       // LocalStorage localStorage = new LocalStorage();
       // localStorage.setItem("abcd1234", "MogguruV");
       // localStorage.getItem("abcd1234");
-     
-     
+     Para mogu = new Para();
+     mogu.perkenalan("joyi", 1000, "game"); 
+     mogu.namaku();
      }
 }
