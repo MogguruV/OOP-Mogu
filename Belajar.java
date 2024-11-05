@@ -4,12 +4,11 @@ public class Belajar {
     int L;                                 //Attribute Luas persegi P
 
 
-    Belajar(){
-        P = 10;
-        l = 3;
+    public Belajar(int p, int l){
+        this.P = p;
+        this.l = l;
     }
-
-
+    
     public void luasPersegiPanjang(){
         L = P * l ;
         System.out.println("Nickname : Joyi \nGame : Roblox");

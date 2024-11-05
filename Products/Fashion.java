@@ -8,7 +8,7 @@ public class Fashion extends Products {
         this.size = size;
     }
 
-    
-    
-
+    public void getSize(){
+        System.out.println("Ukuran sepatu " + this.name + " adalah " + this.size);
+    }
 }
