@@ -49,15 +49,15 @@ public class Main {
      // cookies.getItems(1111);
      // cookies.remove(0);
      // cookies.expired(7); //batas waktu expired dalam hari
-     
+
+     // Para mogu = new Para();
+     // mogu.perkenalan("joyi", 1000, "game"); 
+     // mogu.namaku();
 
      Electronics elektronik = new Electronics("MoguMogu", "Adalah laptop tercanggih yang sudah support MAI (Miku AI)", 159000000, 3);
      elektronik.getInfo();
      elektronik.getInfoWarranty();
 
-     Para mogu = new Para();
-     mogu.perkenalan("joyi", 1000, "game"); 
-     mogu.namaku();
+
      }
-     
 }
