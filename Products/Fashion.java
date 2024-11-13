@@ -7,8 +7,4 @@ public class Fashion extends Products {
         super(name, description, price);
         this.size = size;
     }
-
-    
-    
-
 }
