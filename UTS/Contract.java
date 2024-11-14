@@ -12,8 +12,8 @@ public class Contract extends Employee{
         }
         
         // Method
-        public void getContractDuration(String contract_duration){
-            this.contract_duration = contract_duration;
+        public void getContractDuration(String contract_durations){
+            contract_duration = contract_durations;
             System.out.println("Dikontrak selama " + contract_duration);
         }
 }
