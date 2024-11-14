@@ -8,14 +8,14 @@ public class Employee {
     private String name, position_name;
 
     // Constructor
-    public Employee(int nik, String name, String position_name, int basic_salary, int transport_allowance, int position_allowance){
-        this.nik = nik;
-        this.name = name;
-        this.position_name = position_name;
-        this.basic_salary = basic_salary;
-        this.transport_allowance = transport_allowance;
-        this.position_allowance = position_allowance;
-    }
+    // public Employee(int nik, String name, String position_name, int basic_salary, int transport_allowance, int position_allowance){
+    //     this.nik = nik;
+    //     this.name = name;
+    //     this.position_name = position_name;
+    //     this.basic_salary = basic_salary;
+    //     this.transport_allowance = transport_allowance;
+    //     this.position_allowance = position_allowance;
+    // }
 
     // Encapsulation
     public void setEmployee(int nik, String name, String position_name, int basic_salary, int transport_allowance, int position_allowance){
