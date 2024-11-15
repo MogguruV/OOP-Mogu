@@ -4,7 +4,7 @@ package UTS;
 public class Permanent extends Employee {
     // Attributes
     private String transportation;
-    private Boolean takedayoff;
+    private String takedayoff;
 
     // Constructor
     // public Permanent(int nik, String name, String position_name, int basic_salary, int transport_allowance, int position_allowance){
@@ -13,19 +13,26 @@ public class Permanent extends Employee {
 
     // Encapsulation
     public void setTakedayoff(Boolean takedayoff){
-        this.takedayoff = takedayoff;
-        if (this.takedayoff == true){
+        if (takedayoff == true){
             System.out.println("Mendapatkan Cuti");
+            this.takedayoff = "Mendapatkan cuti";
         }
         else {
             System.out.println("Tidak mendapatkan Cuti");
+            this.takedayoff = "Tidak mendapatkan cuti";
         }
     }
 
     // Method
-    public void setTransportation(String transportation){
-        this.transportation = transportation;
-        System.out.println("Mendapatkan " + this.transportation);
+    public void setTransportation(Boolean transportation){
+        if (transportation == true){
+            this.transportation = "Mobil Lamborghini";
+            System.out.println("Mendapatkan " + this.transportation);
+        }
+        else{
+this.transportation = "Tidak mendapatkan mobil";
+System.out.println(this.transportation);
+        }
     }
 
     // Method

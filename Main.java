@@ -22,8 +22,8 @@ public class Main {
           permanent.setEmployee(332106090, "Kobo", "V-Tuber", 1000000000, 1000000, 3000000);
           permanent.getEmployee();
           permanent.getSalary();
-          permanent.setTakedayoff(false);
-          permanent.setTransportation("Mobil Lamborghini");
+          permanent.setTakedayoff(true);
+          permanent.setTransportation(false);
           permanent.getBenefit();
      }
 }
